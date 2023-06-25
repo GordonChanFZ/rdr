@@ -21,8 +21,8 @@ import (
 
 	"fmt"
 
-	"github.com/xueqiu/rdr/decoder"
-	"github.com/xueqiu/rdr/dump"
+	"github.com/GordonChanFZ/rdr/decoder"
+	"github.com/GordonChanFZ/rdr/dump"
 )
 
 //go:generate go-bindata -prefix "static/" -o=static/static.go -pkg=static -ignore static.go static/...
